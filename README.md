@@ -129,7 +129,7 @@ router.post('/albums', function(req, res, next) {
 });
 ```
 
-Now when you run your code you'll be inserting data into the database.  To check, run:
+Now when you run your code you'll be inserting data into the database. Begin by running the server using `nodemon`. Next, open the browser and navigate to `localhost:3000/albums`. Next, click on "New Album", fill in the form and click "Submit." To check that the data was inserted into the database, run:
 
 ```
 mongo album-demo
