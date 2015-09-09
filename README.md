@@ -42,6 +42,8 @@ var router = express.Router();
 router.get('/albums', function(req, res, next) {
   res.render('albums/index');
 });
+
+module.exports = router;
 ```
 
 Create the albums template:
